@@ -1,4 +1,4 @@
-.myButtons{
+/* .myButtons{
     font-size:4rem;
     margin:10px;
     border: none;
@@ -6,4 +6,24 @@
     background-color: rgb(2, 87, 87);
     padding: 10px 15px;
     color: white;
+} */
+
+.myButtons{
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.enabled{
+    background-color: rgb(66, 66, 206);
+    color: white;
+}
+.hover{
+    box-shadow: 0 0 10px black;
+    font-weight: bold;
+}
+.disabled{
+    background-color: rgb(90, 95, 95);
+    color:rgb(139, 73, 73)
 }
